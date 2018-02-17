@@ -9,7 +9,9 @@
   "scripts": {
     "pulp": "pulp",
     "bower": "bower",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pulp server",
+    "run": "pulp browserify --to dist/Main.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +30,10 @@
     "bower": "^1.8.2",
     "pulp": "^12.0.1",
     "purescript": "^0.11.7"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
